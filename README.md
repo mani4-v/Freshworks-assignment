@@ -22,6 +22,6 @@ The data store will also support the following non-functional requirements such 
 
 2. More than one client process cannot be allowed to use the same file as a data store at amy given time. 
 
-3. A client process is allowed to access the data store
+3. A client process is allowed to access the data store.
 
  4.The data store must therefore be thread-safe. The client will bear as little memory costs as possible to use this data store, while deriving maximum performance with respect to   response times for accessing the data store.
